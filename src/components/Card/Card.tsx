@@ -1,6 +1,5 @@
-import React, { ReactNode, Fragment } from 'react';
+import React, { ReactNode } from 'react';
 import styles from './Card.module.scss';
-import Loader from '../Loader/Loader';
 
 interface CardProps {
   children: ReactNode;

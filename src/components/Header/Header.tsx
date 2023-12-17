@@ -3,8 +3,6 @@ import styles from './Header.module.scss';
 import Filters from './Partials/Filters';
 
 const Header: React.FC = () => {
-  // make useFilters hook
-
   return (
     <div className={styles.header}>
       <div className={styles.topHeader}>
